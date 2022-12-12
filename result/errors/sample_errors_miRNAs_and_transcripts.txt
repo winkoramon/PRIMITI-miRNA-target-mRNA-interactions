@@ -1,0 +1,8 @@
+# The following miRNA(s) was (were) not supported: 
+test_error_miRNA_B, test_error_miRNA_A
+
+# No input_1 errors were found. 
+# No input_2 errors were found. 
+# The following input_3(s) was (were) not supported --- The provided ENST are not supported. Please check if the inputs are in correct forms and specify protein-coding transcripts: 
+test_error_ENST_B, test_error_ENST_A
+

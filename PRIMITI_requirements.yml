@@ -1,0 +1,30 @@
+name: PRIMITI
+channels:
+  - openbabel
+  - conda-forge
+  - schrodinger
+  - defaults
+  - bioconda
+dependencies:
+  - numpy=1.16.6
+  - pandas=0.24.2
+  - python=2.7.17
+  - requests=2.22.0
+  - scikit-learn=0.20.3
+  - seaborn=0.9.0
+  - flask=1.1.1
+  - flask-mail=0.9.1
+  - flask-cors=3.0.8
+  - beautifulsoup4=4.8.2 
+  - redis-py=2.10.6
+  - rq=0.8.1
+  - simplejson
+  - Werkzeug=0.16.0
+  - joblib=0.14.1
+  - intarna
+  - pip
+  - pip:
+    - requests==2.22.0
+    - biopython==1.76
+    - xgboost==0.82
+    - pillow==6.2.2
