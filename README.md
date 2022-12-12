@@ -7,6 +7,9 @@ _________________________________________
 Conda is needed to be installed in order to create two conda environments that contain dependencies.
   1) PRIMITI environments - (PRIMITI_requirements.yml)
   2) PRIMITI_iLearn environments - (iLearn_requirements.yml)
+  
+Optional:
+        If conda is not installed in the main root, please modify the variable MAIN_ENV_PATH and SUB_ENV_PATH in a config.py file to change to               environments path.
 
 ## Usage
 _________________________________________
