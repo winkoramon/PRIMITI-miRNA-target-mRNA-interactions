@@ -14,9 +14,9 @@ Optional:
 python PRIMITI.py input_miRNA_csv input_transcript_csv job_id
 
 positional arguments:
-  input_miRNA_csv             choose csv file contain a list of miRNAs
-  input_transcript_csv        choose csv file contain a list of transcripts
-  job_id                      select job_id for outputs - the results with job_id as header can be found in the result folder
+  1. input_miRNA_csv             choose csv file contain a list of miRNAs
+  2. input_transcript_csv        choose csv file contain a list of transcripts
+  3. job_id                      select job_id for outputs - the results with job_id as header can be found in the result folder
   
 optional arguments:
   -h, --help                  show a help message and exit
@@ -38,6 +38,7 @@ conda env create -f iLearn_requirements.yml
 
 Due to the excessive size of data required in PRIMITI.py, we are unable to upload them to github. 
 Please download the code folder from google drive (https://drive.google.com/drive/folders/1UZ8mFEX1BwNUTKR1nOkaezpedAFd4nOQ?usp=sharing).
+
 Put the code folder onto the same directoty as PRIMITI.py
 If you have any inquery, please contact me through this email - k.uthayopas@uq.edu.au.
 
